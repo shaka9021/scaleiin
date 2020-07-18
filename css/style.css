@@ -504,5 +504,19 @@ h1 {
 	border: 7px solid #fff;
 	box-sizing: border-box;
 }
+@media only screen and (max-width:1165px){
 
+.columnax3{
+	width: 100%;
+}
+.contenedor-columnas{
+		flex-direction: column;
+	}
+	.imagen{
+		width: 100%;
+	
+	}
+	.columnax3{
+		width: 100%;
 
+	}
