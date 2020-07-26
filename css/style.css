@@ -1,5 +1,6 @@
 
 /*collapse navbar-collapse" id="navbarSupportedContentVariables*/
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
 .col-md-offset-right-1, .col-lg-offset-right-1 {
@@ -8,6 +9,12 @@
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+*{
+  font-family: sans-serif;
+  }
+  
+  
+}
 ul {
   list-style: none;
   margin: 0px;
@@ -179,7 +186,7 @@ i:before {
   height: 3px;
   width: 25px;
   display: block;
-  background: #0b1033;
+  background: #354c54;
   margin-bottom: 3px;
 }
 
@@ -209,7 +216,7 @@ i:before {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #9e2b59;
+  color: #04e3e3;
   letter-spacing: .65px;
   padding: 0px;
   line-height: 118px;
@@ -283,7 +290,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #9e2b59;
+  color: #04e3e3;
 }
 
 .main_menu_area.navbar_fixed {
@@ -341,9 +348,9 @@ i:before {
 
 }
 .columnax3{
-	width: 33.333%;
-	float: 	left;	
-	text-align: left;
+	width:33%;
+	float: 	center;	
+	text-align: center;
 	padding: 20px 20px;
 	box-sizing: border-box;
 	margin: auto;
@@ -419,7 +426,7 @@ i:before {
 }
 
 .client_section .carousel-indicators li.active {
-  background-color: #9e2b59;
+  background-color: #fb0c5c;
 }
 
 .result_section {
@@ -433,7 +440,7 @@ body {
 }
 
 h1 {
-	color: #fff;
+	color: rgb(7, 6, 6);
 	text-align: center;
 }
 
@@ -513,17 +520,18 @@ h1 {
 }
 
 .colum1{
-  max-width: 400px;
+  max-width: 800px;
+  
 }
 
 .colum1 h1{
   font-size: 22px;
-}
-
-.colum1 p{
-  font-size: 14px;
   color: #C7C7C7;
-  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.row1 img{
+  width: 62px;
+  height: 72px;
 }
 
 .colum2{
@@ -533,6 +541,7 @@ h1 {
 
 .colum2 h1{
   font-size: 22px;
+  color: #C7C7C7;
 }
 
 .row{
@@ -557,6 +566,7 @@ h1 {
 
 .colum3 h1{
   font-size: 22px;
+  color: #C7C7C7;
 }
 
 .row2{
@@ -573,6 +583,7 @@ h1 {
   margin-top: 10px;
   margin-left: 20px;
   max-width: 140px;
+  color: #C7C7C7;
 }
 
 .container-footer{
