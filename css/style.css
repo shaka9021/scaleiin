@@ -12,9 +12,9 @@
 *{
   font-family: sans-serif;
   }
+
+
   
-  
-}
 ul {
   list-style: none;
   margin: 0px;
@@ -56,7 +56,7 @@ a:hover, a:focus {
 body {
   line-height: 28px;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family:  sans-serif;
   font-weight: 500;
 }
 
@@ -112,7 +112,7 @@ i:before {
 
 .c_title h6 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #7c8d93;
@@ -122,7 +122,7 @@ i:before {
 .c_title h2 {
   font-size: 48px;
   color: #0b1033;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
@@ -136,7 +136,7 @@ i:before {
 
 .l_title h6 {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family:  sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #7c8d93;
@@ -146,12 +146,12 @@ i:before {
 .l_title h2 {
   font-size: 48px;
   color: #0b1033;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 500;
 }
 
 .l_title h2 span {
-  font-style: italic;
+  font-style: sans-serif;
   color: #6fbbfe;
 }
 
@@ -166,14 +166,23 @@ i:before {
   left: 0px;
   top: 0px;
   width: 100%;
-  z-index: 30;
+  z-index: 10;
   padding: 0px 45px;
+  background: rgba(12, 12, 12, 60%);
+  height: 100px;
+}
+.navbar-brand a{
+  margin-top: 0px;
+
 }
 
 .main_menu_area .navbar {
   padding: 0px;
   border-radius: 0px;
   background-color: transparent !important;
+  height: 100px;
+  width: 100%;
+  
 }
 
 .main_menu_area .navbar .navbar-toggler {
@@ -212,11 +221,11 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li a {
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-family: sans-serif ;
   font-weight: bold;
   text-transform: uppercase;
-  color: #04e3e3;
+  color:#ed155d;
   letter-spacing: .65px;
   padding: 0px;
   line-height: 118px;
@@ -264,7 +273,7 @@ i:before {
   display: block;
   line-height: 38px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family:  sans-serif;
   letter-spacing: .48px;
   font-size: 16px;
   padding: 0px 30px;
@@ -290,7 +299,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #04e3e3;
+  color:#ed155d;
 }
 
 .main_menu_area.navbar_fixed {
@@ -299,7 +308,7 @@ i:before {
   top: -70px;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 75%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -347,8 +356,20 @@ i:before {
 	margin-bottom: 50px; 
 
 }
+
+.heading_container h1{
+
+padding-bottom: 10px;
+padding-top:10px;
+}
+
+.contenedor-columnas h1{
+  padding-bottom: 10px;
+  padding-top:10px;
+
+}
 .columnax3{
-	width:33%;
+	width:25%;
 	float: 	center;	
 	text-align: center;
 	padding: 20px 20px;
@@ -436,11 +457,16 @@ i:before {
 body {
 
 	margin: 0;
-	font-family: monospace;
+	font-family: sans-serif;
 }
 
 h1 {
-	color: rgb(7, 6, 6);
+	color: #ed155d;
+	text-align: center;
+}
+
+h2 {
+	color: ·#425270;
 	text-align: center;
 }
 
