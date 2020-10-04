@@ -364,7 +364,8 @@ padding-top:10px;
 }
 
 .contenedor-columnas h1{
-  padding-bottom: 10px;
+ 
+  
   padding-top:10px;
 
 }
@@ -558,6 +559,15 @@ h2 {
 .row1 img{
   width: 62px;
   height: 72px;
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.row1 a{
+  font-size: 22px;
+  color: #C7C7C7;
+
 }
 
 .colum2{
