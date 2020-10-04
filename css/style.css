@@ -168,7 +168,7 @@ i:before {
   width: 100%;
   z-index: 10;
   padding: 0px 45px;
-  background: rgba(12, 12, 12, 60%);
+  background: rgba(0, 0, 0, 75%);
   height: 100px;
 }
 .navbar-brand a{
@@ -308,7 +308,7 @@ i:before {
   top: -70px;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 75%);
+  background: rgba(0, 0, 0, 80%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -553,7 +553,7 @@ h2 {
 .colum1 h1{
   font-size: 22px;
   color: #C7C7C7;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .row1 img{
   width: 62px;
